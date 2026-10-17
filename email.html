@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send an Email | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Luna<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main class="page-container">
+    <section class="page-heading">
+        <span class="tag">GET IN TOUCH</span>
+        <h1>Send a <span>Message</span></h1>
+        <p>Write your message below and send it using your email app.</p>
+    </section>
+
+    <section class="email-form-card">
+        <p class="email-recipient">
+            <span>To</span>
+            <strong>delacruzcharmaine1012@gmail.com</strong>
+        </p>
+
+        <form class="email-form" id="emailForm">
+            <div>
+                <label for="emailSubject">Subject</label>
+                <input id="emailSubject" name="subject" type="text" maxlength="120" placeholder="What is this about?" required>
+            </div>
+
+            <div>
+                <label for="emailMessage">Message</label>
+                <textarea id="emailMessage" name="message" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <div class="email-form-actions">
+                <button class="btn primary" type="submit">Open Email App ↗</button>
+                <a class="btn secondary" href="contact.html">Back to Contact</a>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Charmaine Velario. Made with ♡</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

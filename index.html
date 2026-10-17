@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Luna<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-content">
+
+            <span class="tag">WELCOME TO MY PORTFOLIO ✿</span>
+
+            <h1>Hello, I'm <span>Charmaine Velario</span></h1>
+
+            <h2>Future IT Professional</h2>
+
+            <p>
+                A passionate student who loves learning new things,
+                exploring technology, and turning ideas into reality.
+                Welcome to my little corner of the internet!
+            </p>
+
+            <div class="hero-buttons">
+                <a href="about.html" class="btn primary">Discover More ↗</a>
+                <a href="projects.html" class="btn secondary">My Projects</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <div class="image-decoration"></div>
+
+            <img
+                src="efc340d7-7536-41b8-a434-88b79a1b7348.jpg"
+                alt="My profile picture"
+                onerror="this.style.display='none'; document.getElementById('placeholder').style.display='grid';"
+            >
+
+            <div id="placeholder" class="placeholder">YOUR<br>PHOTO</div>
+
+        </div>
+    </section>
+
+    <section class="welcome-section">
+        <div class="section-heading">
+            <span class="tag">A LITTLE INTRODUCTION</span>
+            <h2>More Than Just a Student</h2>
+            <p>
+                Every day is an opportunity to learn, grow,
+                and become a better version of myself.
+            </p>
+        </div>
+
+        <div class="feature-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon">🎓</div>
+                <h3>Education</h3>
+                <p>Continuously learning and developing my knowledge.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">💻</div>
+                <h3>Technology</h3>
+                <p>Exploring web development and creative digital tools.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">🌱</div>
+                <h3>Personal Growth</h3>
+                <p>Building confidence, creativity, and new skills.</p>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Charmaine Velario. Made with ♡</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
